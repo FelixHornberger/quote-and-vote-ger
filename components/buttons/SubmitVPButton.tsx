@@ -48,8 +48,8 @@ export default function SubmitVPButton() {
     }
     return (
         <>
-            {showUserFeedback && <UserFeedback feedbackText='In order for the VP hours to be credited, we need all the data!' />}
-            <button className='bg-custom-accent p-2 font-semibold my-3' onClick={() => handleclick()}>SubmitVP</button>
+            {showUserFeedback && <UserFeedback feedbackText='Damit die VP-Stunden gutgeschrieben werden können, benötigen ich alle Daten!' />}
+            <button className='bg-custom-accent p-2 font-semibold my-3' onClick={() => handleclick()}>Einreichen der VP</button>
         </>
     );
 };

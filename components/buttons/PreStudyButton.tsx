@@ -28,10 +28,10 @@ export default function PreStudyButton(){
 
     return (
         <div className='flex flex-col text-center justify-center'>
-            {showUserFeedback && <UserFeedback feedbackText='You cannot go to the next page without having stated all quizes.' />}
+            {showUserFeedback && <UserFeedback feedbackText='Sie können nicht zur nächsten Seite wechseln, ohne alle Fragen beantwortet zu haben.' />}
             <Link href="/pre-task" passHref>
                 <button className='bg-custom-accent p-2 font-semibold my-3' onClick={handleClick}>
-                    Next Page
+                    Nächste Seite
                 </button>
             </Link>
         </div>

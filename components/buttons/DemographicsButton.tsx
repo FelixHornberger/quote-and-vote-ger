@@ -117,10 +117,10 @@ export default function DemographicsButton() {
   return (
       <div className='flex felx-col justify-center items-center text-center mb-3'>
         <div>
-          {showUserFeedback && <UserFeedback feedbackText='Before you can go to the next page, you must complete all the forms on this page!' />}
+          {showUserFeedback && <UserFeedback feedbackText='Bevor Sie zur nächsten Seite gehen können, müssen Sie alle Felder auf dieser Seite ausfüllen!' />}
           <Link href="/end">
             <button onClick={handleClick} className="bg-custom-accent p-2 font-semibold mt-3">
-              Next page
+              Nächste Seite
             </button>
           </Link>
         </div>
