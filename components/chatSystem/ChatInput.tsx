@@ -90,10 +90,9 @@ export default function ChatInput() {
                 let messageToSend = messageText;
                 if (messageText !== '') {
                     
-                    messageToSend += `Keep your answer short.`
+                    messageToSend += `Halte deine Antwort kurz.`
                     if(activeCondition) {
-                        messageToSend += `\n At the end of your message, let the user know that you know even more about the party programme and that they are welcome to ask you about it. 
-                        Give the user examples what else he could as you. `
+                        messageToSend += `\n Am Ende deiner Nachricht solltest du dem Nutzer mitteilen, dass du noch mehr über das Partyprogramm weißt und dass er dich gerne danach fragen kann. Gib dem Benutzer Beispiele dafür, was er sonst noch tun könnte.`
                     }
 
                     addMessageZustand({
@@ -129,7 +128,7 @@ export default function ChatInput() {
             <textarea
                 className="bg-transparent w-full sm:w-[70%] mx-5 border-neutral-900 border-2 focus:border-[3px] focus:outline-none shadow-xl focus:ring-0
                 rounded-lg mt-3 text-custom-text"
-                placeholder="Type a message..."
+                placeholder="Geben Sie eine Nachricht ein ..."
                 id="message-input"
                 defaultValue={""}
                 onKeyDown={handleKeyDown}

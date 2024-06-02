@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <main className="flex flex-col items-center justify-between h-screen">
             <div className="text-center place-items-center mb-3 w-full">
-                <h2 >Take a look at the manifesto and then click the button to get to the next page when you&apos;re done.</h2>
+                <h2>Sehen Sie sich das Manifest an und klicken Sie dann auf die Schaltfläche, um zur nächsten Seite zu gelangen, wenn Sie fertig sind.</h2>
             </div>
             <ManifestoComponent></ManifestoComponent>
         <NavButton href="/post-task"></NavButton>
