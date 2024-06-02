@@ -4,18 +4,18 @@ export default function InfoText() {
         <div className="flex-col border border-neutral-900 p-5 mb-3">
             <div className="flex-col text-left justify-center sm:justify-normal mb-3">
                 <p>
-                    In the European elections, you will vote for a party from your country. 
-                    The members of parliament from different member states join together to form factions according to their political orientation.
+                    Bei den Europawahlen wählen Sie eine Partei aus Ihrem Land. 
+                    Die Abgeordneten aus den verschiedenen Mitgliedstaaten schließen sich entsprechend ihrer politischen Ausrichtung zu Fraktionen zusammen.
                 </p>
                 <br/>
                 <p>
-                    According to the Parliament&apos;s Rules of Procedure, a political group must comprise at least 23 MEPs elected in at least seven Member States. 
-                    MEPs can only belong to one political group. However, they can also choose not to join a political group and remain ‘non-attached’. 
-                    There are currently 46 non-attached MEPs.
+                    Gemäß der Geschäftsordnung des Parlaments muss eine politische Fraktion mindestens 23 Abgeordnete aus mindestens sieben Mitgliedstaaten umfassen. 
+                    Die Abgeordneten können nur einer Fraktion angehören. 
+                    Sie können sich jedoch auch dafür entscheiden, keiner Fraktion beizutreten und „fraktionslos“ zu bleiben. Derzeit gibt es 46 fraktionslose Abgeordnete.
                 </p>
                 <br/>
                 <p>
-                    Groups can be formed at any time during the parliamentary term. At present, seven groups fulfil the necessary criteria.
+                    Fraktionen können jederzeit während der Wahlperiode gebildet werden. Derzeit erfüllen sieben Fraktionen die erforderlichen Kriterien.
                 </p>
             </div>
         </div>

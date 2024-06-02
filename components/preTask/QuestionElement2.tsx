@@ -7,7 +7,7 @@ export default function QuestionElement({ question }: { question: string }) {
                 <h2>{question}</h2>
             </div>
             <PartySelector></PartySelector>
-            <p className="text-base pt-2.5 sm:pt-1">The Identity and Democracy Party (ID) is not included, as the party was unable to agree on an election programme for this election.</p>
+            <p className="text-base pt-2.5 sm:pt-1">Die Partei Identität und Demokratie (ID) ist nicht in der Liste enthalten, da sie sich nicht auf ein Wahlprogramm für diese Wahlen einigen konnte.</p>
         </div>
     );
 }
