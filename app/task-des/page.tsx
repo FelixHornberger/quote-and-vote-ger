@@ -19,7 +19,7 @@ export default function Home() {
   
   return (
     <main className="flex flex-col items-center justify-between">
-      <h1 className="my-3">Task Description</h1>
+      <h1 className="my-3">Aufgabebeschreibung</h1>
       <p className="px-5 sm:w-[50%] self-center">
               {stringToDisplay}
           </p>
