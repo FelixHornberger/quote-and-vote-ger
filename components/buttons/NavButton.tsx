@@ -33,7 +33,7 @@ export default function NavButton({ href }: { href: string }) {
     <div className='text-center'>
       <Link href={href} passHref>
         <button className='bg-custom-accent p-2 font-semibold my-3' onClick={handleClick}>
-          Next Page
+          Nächste Seite
         </button>
       </Link>
     </div>
