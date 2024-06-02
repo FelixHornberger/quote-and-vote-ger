@@ -17,12 +17,12 @@ export const GET = async (req: NextRequest) => {
     };
   } else if (randomNumber === 1) {
     data = {
-      href: '/pdf',
+      href: '/chat',
       condition: false,
     };
   } else {
     data = {
-      href: '/pdf',
+      href: '/chat',
       condition: true,
     };
   }
