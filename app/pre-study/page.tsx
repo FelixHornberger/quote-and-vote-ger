@@ -4,25 +4,25 @@ import QuesitonElementPreStudy from "@/components/preStudy/QuestiomElementPreStu
 export default function Home() {
 
 
-  const question1 = "How many members does the European Parliament have?";
-  const labels1 = ["a) 600","b) 705","c) 751","d) 800", "e) I don't know"];
+  const question1 = "Wie viele Mitglieder hat das Europäische Parlament?";
+  const labels1 = ["a) 600","b) 705","c) 751","d) 800", "e) Ich weiß es nicht"];
 
-  const question2 = "How often are European Parliament elections held?";
-  const labels2 = ["a) Every 3 years","b) Every 4 years","c) Every 5 years","d) Every 6 years", "e) I don't know"];
+  const question2 = "In welchen Abständen finden die Wahlen zum Europäischen Parlament statt?";
+  const labels2 = ["a) Alle 3 Jahre","b) Alle 4 Jahre","c) Alle 5 Jahre","d) Alle 6 Jahre", "e) Ich weiß es nicht"];
 
-  const question3 = "Which of the following institutions shares legislative power with the European Parliament?";
-  const labels3 = ["a) The European Council","b) The European Commission","c) The Council of the European Union","d) The European Court of Justice", "e) I don't know"];
+  const question3 = "Welche der folgenden Institutionen teilt sich die gesetzgebende Gewalt mit dem Europäischen Parlament?";
+  const labels3 = ["a) Der Europäische Rat","b) Die Europäische Kommission","c) Der Rat der Europäischen Union","d) Der Europäische Gerichtshof", "e) Ich weiß es nicht"];
 
-  const question4 = "What is the main function of the European Parliament?";
-  const labels4 = ["a) To propose new EU laws","b) To pass and amend legislation","c) To manage the EU budget directly","d) To adjudicate legal disputes between member states", "e) I don't know"];
+  const question4 = "Was ist die Hauptfunktion des Europäischen Parlaments?";
+  const labels4 = ["a) Neue EU-Gesetze vorschlagen","b) Gesetzgebung verabschieden und ändern","c) Den EU-Haushalt direkt verwalten","d) Rechtliche Streitigkeiten zwischen Mitgliedstaaten entscheiden", "e) Ich weiß es nicht"];
 
-  const question5 = "What is the process called when the European Parliament votes to approve or reject the European Commission as a whole?";
-  const labels5 = ["a) Confirmation hearing","b) Legislative review","c) Motion of censure","d) Investiture vote", "e) I don't know"];
+  const question5 = "Wie nennt man den Prozess, wenn das Europäische Parlament über die Zustimmung oder Ablehnung der gesamten Europäischen Kommission abstimmt?";
+  const labels5 = ["a) Bestätigungshöring","b) Gesetzesprüfung","c) Misstrauensvotum","d) Investiturabstimmung", "e) Ich weiß es nicht"];
 
   return (
     <main className="flex flex-col items-center">
       <div className="text-center place-items-center mb-3">
-        <h1>Please answer the following quiz:</h1>
+        <h1>Bitte beantworten Sie die folgenden Fragen:</h1>
       </div>
       <div className="w-[75%] sm:w-[50%]">
         <QuesitonElementPreStudy question={question1} labels={labels1} answerKey="answer1"  ></QuesitonElementPreStudy>
