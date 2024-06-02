@@ -7,14 +7,14 @@ export default function Home() {
   
   const {href} = useHrefStore();
     
-  let stringToDisplay = `On the next page, you will see the party programme as a PDF. It may take up to 5 seconds to load the PDF. 
-      You can spend as much time as you like looking at the party programme. 
-      As soon as you have all the information about the party programme, you can go to the next page.`
+  let stringToDisplay = `Auf der folgenden Seite finden Sie das Parteiprogramm als PDF.
+  Das Laden des PDF kann bis zu 5 Sekunden dauern. Sie können sich beliebig viel Zeit nehmen, um das Parteiprogramm zu lesen. 
+  Wenn Sie alle Informationen über das Parteiprogramm erhalten haben, können Sie zur nächsten Seite wechseln.`
 
   if (href === '/chat') {
-    stringToDisplay = `On the next page, you can chat with a chatbot about the party programme. 
-    You can chat for as long as you like. 
-    When you have all the information about the party programme that is important to you, you can go to the next page.`
+    stringToDisplay = `Auf der nächsten Seite können Sie mit einem Chatbot über das Partyprogramm chatten. 
+    Sie können so lange chatten, wie Sie möchten. 
+    Wenn sie alle Informationen über das Partyprogramm haben, die für sie wichtig sind, können sie zur nächsten Seite gehen.`
   }
   
   return (
