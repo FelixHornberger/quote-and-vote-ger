@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <div className="text-center place-items-center mb-3">
-        <h1 >Welcome to my Study</h1>
+        <h1 >Willkommen zu meiner Studie</h1>
       </div>
         <div className="px-5 flex justify-center">
           <div className="task-box mb-3 max-w-prose place-items-center px-5 border border-neutral-900">
