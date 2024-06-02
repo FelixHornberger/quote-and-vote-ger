@@ -10,13 +10,13 @@ export default function Home() {
         <div className="px-5 flex justify-center">
           <div className="task-box mb-3 max-w-prose place-items-center px-5 border border-neutral-900">
               <p className="">
-                You have been invited to take part in my online study. 
-                The European elections are on 9 June 2024 and we are electing national parties that can win seats in the European Parliament. 
-                Most national parties join together to form political groups. These groups have their own election programmes. 
-                The purpose of this study is to provide participants with different means to learn about a party of their choice and analyse how this impacts their engagement with the material and the amount of political knowledge gained.
-                The study will be conducted by Felix Hornberger and supervised by Dr. David Elsweiler from the University of Regensburg. 
-                The duration of the study is 15 minutes. Students at the University of Regensburg will receive 0.25 credit hours. 
-                The study can only be started once and should be completed in one go.
+                Sie sind eingeladen worden, an meiner Online-Studie teilzunehmen. 
+                Am 9. Juni 2024 finden die Europawahlen statt und wir wählen nationale Parteien, die Sitze im Europäischen Parlament gewinnen können. 
+                Die meisten nationalen Parteien schließen sich zu politischen Gruppierungen zusammen. Diese Gruppierungen haben ihre eigenen Wahlprogramme.  
+                Ziel dieser Studie ist es, den Teilnehmern verschiedene Möglichkeiten zu bieten, sich über eine Partei ihrer Wahl zu informieren, und zu analysieren, wie sich dies auf ihre Beschäftigung mit dem Material und den Umfang des erworbenen politischen Wissens auswirkt.
+                Die Studie wird von Felix Hornberger durchgeführt und von Dr. David Elsweiler von der Universität Regensburg betreut. 
+                Die Dauer der Studie beträgt 15 Minuten. Studierende der Universität Regensburg erhalten 0,25 Versuchspersonenstunden. 
+                Die Studie kann nur einmal gestartet werden und sollte in einem Durchgang abgeschlossen werden.
               </p>
           </div>
         </div>
