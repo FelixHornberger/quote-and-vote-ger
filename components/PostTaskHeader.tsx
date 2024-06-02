@@ -7,7 +7,7 @@ export default function PostTaskHeader() {
     const {vote} = useVoteStore()
     const {party} = usePartyStore()
 
-    let headline = `How likely will you now be voting for ${party}?`
+    let headline = `Wie wahrscheinlich ist es, dass Sie jetzt für ${party} stimmen werden?`
     // if (vote) {
     //     headline = `You previously stated that you would vote for ${party}. How confident are you in this decision now?`
     // } else {
