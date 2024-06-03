@@ -1,4 +1,3 @@
-import NavButton from "@/components/buttons/NavButton";
 import Checkbox from "@/components/Checkbox";
 
 export default function Home() {
