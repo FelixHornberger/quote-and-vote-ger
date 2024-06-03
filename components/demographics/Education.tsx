@@ -10,13 +10,15 @@ export default function Education() {
             style={{ fontFamily: "'__Inter_aaf875', '__Inter_Fallback_aaf875', sans-serif" }}
             onChange={(e) => setLevelOfEducation(e.target.value)}>
             <option disabled selected>
-                Select an option
+                Wählen Sie eine Option aus
             </option>
-            <option id="placeholder">Less than high school</option>
-            <option id="placeholder">High school</option>
+            <option id="placeholder">Geringer als Hauptschule</option>
+            <option id="placeholder">Hauptschule</option>
+            <option id="placeholder">Realschule</option>
+            <option id="placeholder">Abitur</option>
             <option id="placeholder">Bachelor</option>
             <option id="placeholder">Master</option>
-            <option id="placeholder">Doctorate</option>
-            <option id="none">Don&apos;t want to specify</option>
+            <option id="placeholder">Doktor</option>
+            <option id="none">Ich möchte keine Angaben machen</option>
         </select>);
 }

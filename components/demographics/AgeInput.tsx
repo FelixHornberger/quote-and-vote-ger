@@ -15,6 +15,6 @@ export default function AgeInput() {
                     event.preventDefault();
                 }
             }
-        }} placeholder="e.g.18" id="age"></input>
+        }} placeholder="Bsp. 18" id="age"></input>
     );
 }

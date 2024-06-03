@@ -15,10 +15,10 @@ export default function PreferedInformationGatheringWay() {
             style={{ fontFamily: "'__Inter_aaf875', '__Inter_Fallback_aaf875', sans-serif" }}
             onChange={(e) => setPreferedWay(e.target.value)}>
             <option disabled selected>
-                Select an option
+                Wählen Sie eine Option aus
             </option>
-            <option id="placeholder">Read about it</option>
-            <option id="placeholder">Chat about it</option>
-            <option id="none">Don&apos;t want to specify</option>
+            <option id="placeholder">Darüber lesen</option>
+            <option id="placeholder">Darüber chatten</option>
+            <option id="none">Ich möchte keine Angaben machen</option>
         </select>);
 }

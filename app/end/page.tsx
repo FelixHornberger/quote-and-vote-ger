@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
        <div className="text-center place-items-center mb-3">
-                <h1>Thank you for participating!</h1>
+                <h1>Vielen Dank für Ihre Teilnahme!</h1>
             </div>
             <div className="px-5 flex justify-center">
                 <div className="task-box mb-3 max-w-prose place-items-center px-5 border border-neutral-900">
                     <p className="text-padding">
                         <SurveyID/>
                         <br />
-                        If you have any questions or comments about the study, please do not hesitate to contact me.
+                        Wenn Sie Fragen oder Anmerkungen zu der Studie haben, zögern Sie bitte nicht, mich zu kontaktieren.
                         <br />
                         Felix Hornberger: Felix.Hornberger@stud.uni-regensburg.de
                     </p>

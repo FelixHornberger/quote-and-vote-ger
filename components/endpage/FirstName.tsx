@@ -8,7 +8,7 @@ export default function FirstName() {
             id="firstName"
             className="h-6 w-full border border-custom-text"
             type="text"
-            placeholder="e.g Max"
+            placeholder="Bsp. Max"
             onChange={(e) => setFirstName(e.target.value)}
         ></input>
     );

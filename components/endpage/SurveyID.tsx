@@ -7,6 +7,6 @@ export default function SurveyID() {
     const { surveyID } = useIDStore();
 
     return(
-        <p>Your SurveyID is: { surveyID }</p>
+        <p>Ihre Umfrage-ID lautet: { surveyID }</p>
     )
 }

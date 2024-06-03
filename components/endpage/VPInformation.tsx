@@ -18,18 +18,18 @@ export default function VPInformation() {
             <div className="flex felx-col justify-center">
                 <div className="text-center sm:w-[50%] justify-center px-5">
                     <p className="mb-3">
-                        If you are a student at the University of Regensburg and need VP hours, enter your details here, otherwise you can close the page.
+                        Wenn Sie Student an der Universität Regensburg sind und VP-Stunden benötigen, geben Sie hier Ihre Daten ein. Andernfalls können Sie die Seite schließen.
                     </p>
                     <div className="mb-3">
-                        <p>Firstname:</p>
+                        <p>Vorname:</p>
                         <FirstName />
                     </div>
                     <div className="mb-3">
-                        <p>Lastname:</p>
+                        <p>Nachname:</p>
                         <LastName />
                     </div>
                     <div className="mb-3">
-                        <p>Degree Programm:</p>
+                        <p>Studiengang:</p>
                         <DegreeProgramm />
                     </div>
                     <div className="mb-3">

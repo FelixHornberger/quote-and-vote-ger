@@ -8,7 +8,7 @@ export default function Occupation() {
             id="occupation"
             className="h-6 w-full border border-custom-text focus:border-[2px] focus:outline-none"
             type="text"
-            placeholder="e.g Student"
+            placeholder="Bsp. Student"
             onChange={(e) => setOccupation(e.target.value)}
         ></input>);
 }

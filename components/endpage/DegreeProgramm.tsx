@@ -8,7 +8,7 @@ export default function DegreeProgramm() {
             id="degreeProgramm"
             className="h-6 w-full border border-custom-text"
             type="text"
-            placeholder="e.g Information Sience"
+            placeholder="Bsp. Informationswissenschaft"
             onChange={(e) => setDegreeProgramm(e.target.value)}
         ></input>
     );

@@ -9,12 +9,12 @@ export default function Gender() {
             style={{ fontFamily: "'__Inter_aaf875', '__Inter_Fallback_aaf875', sans-serif" }}
             onChange={(e) => setGender(e.target.value)}>
             <option value="" disabled selected>
-                Select an option
+                Wählen Sie eine Option aus
             </option>
-            <option id="female">Female</option>
-            <option id="male">Male</option>
+            <option id="female">Weiblich</option>
+            <option id="male">Männlich</option>
             <option id="divers">Divers</option>
-            <option id="none">Don&apos;t want to specify</option>
+            <option id="none">Ich möchte keine Angaben machen</option>
         </select>
     );
 }
