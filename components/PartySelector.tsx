@@ -6,7 +6,7 @@ import { useHrefStore } from '@/zustand/href';
 import { usePartyStore } from '@/zustand/party';
 import { useSystemPromptStore } from '@/zustand/systemPrompt';
 import React, { useState } from 'react';
-import Select, { OptionsOrGroups, OptionProps, StylesConfig } from 'react-select';
+import Select, { OptionsOrGroups, StylesConfig } from 'react-select';
 
 interface SelectorProps {
   options: OptionsOrGroups<any, any>;
@@ -66,6 +66,7 @@ const Selector: React.FC<SelectorProps> = ({
       value={value}
       onChange={onChange}
       styles={customStyles}
+      placeholder='Wählen Sie eine Option aus'
     />
   );
 };
@@ -80,13 +81,13 @@ export default function PartySelector() {
 
   const options = [
     { value: 'Alliance of Liberals and Democrats for Europe Party (ALDE)', label: 'Alliance of Liberals and Democrats for Europe Party (ALDE)' },
-    { value: 'The European Christian Political Movement (ECPM)', label: 'The European Christian Political Movement (ECPM)' },
+    { value: 'The European Christian Political Movement (ECPM)', label: 'The European Christian Political Movement (ECPM) [Nur auf englisch]' },
     { value: 'European Conservatives and Reformists (ECR-Party)', label: 'European Conservatives and Reformists (ECR-Party)' },
     { value: 'European Democrats (EDP)', label: 'European Democrats (EDP)' },
     { value: 'European Free Alliance (EFA)', label: 'European Free Alliance (EFA)' },
     { value: 'European Greens (EGP)', label: 'European Greens (EGP)' },
     { value: 'European-LEFT (EL)', label: 'European-LEFT (EL)' },
-    { value: 'European people\'s party (EPP)', label: 'European people\'s party (EPP)' },
+    { value: 'European people\'s party (EPP)', label: 'European people\'s party (EPP) [Nur auf englisch]' },
     { value: 'The Party of European Socialists (PES)', label: 'The Party of European Socialists (PES)' },
     { value: 'European Pirate Party (PPEU)', label: 'European Pirate Party (PPEU)' },
     { value: 'Volt Europa (Volt)', label: 'Volt Europa (Volt)' },
