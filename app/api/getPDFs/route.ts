@@ -9,17 +9,17 @@ export async function POST(req: NextRequest) {
     console.log('Parsed party:', party);
 
     const partyPaths: { [key: string]: string } = {
-      'Alliance of Liberals and Democrats for Europe Party (ALDE)': 'https://drive.google.com/file/d/1JfxnQNmB4g7RuqcIVB4J-Ej3-21DUF1J/previe',
-      'The European Christian Political Movement (ECPM)': 'https://drive.google.com/file/d/1eBZ2KUjfkRC4FkxpvmxCQk52uKKf9rW1/preview',
-      'European Conservatives and Reformists (ECR-Party)': 'https://drive.google.com/file/d/1kgCfE-2Xo8NpBaLnnyHrKh9aCgKqbAFQ/preview',
-      'European Democrats (EDP)': 'https://drive.google.com/file/d/1wBS1v7ntL3c0ces8dHJgG9cCLAVY9aKw/preview',
-      'European Free Alliance (EFA)': 'https://drive.google.com/file/d/1EFstKKkvU2QarE0FCXHz93PhZPHLSMMP/preview',
-      'European people\'s party (EPP)': 'https://drive.google.com/file/d/19XkIXcV-QY5SghHw58RGhMegIWmBSUtR/preview',
-      'European Greens (EGP)': 'https://drive.google.com/file/d/1Ysoshn_4NqPhTNEIbgRa7hgv3hj-o_BM/preview',
-      'European-LEFT (EL)': 'https://drive.google.com/file/d/1tzoWcXsJHBWCuAlR5HQE_Hl_6UmJ63eM/preview',
-      'The Party of European Socialists (PES)': 'https://drive.google.com/file/d/1EYiUlQXO0cvdzoZHp4rtpwCaOnDnJA8n/preview',
-      'European Pirate Party (PPEU)': 'https://drive.google.com/file/d/1l05EjohR_SdKT2aQBugOjTmWL-CTz8NV/preview',
-      'Volt Europa (Volt)': 'https://drive.google.com/file/d/10srivalu1qzMqNE8AsGYvTZkTRulnLZT/preview',
+      'Alliance of Liberals and Democrats for Europe Party (ALDE)': 'https://drive.google.com/file/d/1sVSorWcTEAMPSJ8gd7URo_AO9GgFe_71/preview',
+      'The European Christian Political Movement (ECPM)': 'https://drive.google.com/file/d/1oIKPwriTvm81g-hfGLE8EQkcgcVFbtVz/preview',
+      'European Conservatives and Reformists (ECR-Party)': 'https://drive.google.com/file/d/1de41NcyYUMoTMMI5Lfl7u6KBeaPBLwct/preview',
+      'European Democrats (EDP)': 'https://drive.google.com/file/d/1K4xHnFGshR6pU5LZck-dp7zUfbREuA2X/preview',
+      'European Free Alliance (EFA)': 'https://drive.google.com/file/d/1SyCvPuuYnJ5l-k7aGLV3G_k98Hl1PY1z/preview',
+      'European people\'s party (EPP)': 'https://drive.google.com/file/d/1Vpdfey3TbM1RRgdiZNZDsmwI-W2OeqUC/preview',
+      'European Greens (EGP)': 'https://drive.google.com/file/d/1wcHihEktE0h9eZ_db6CCjCO85VFm4OhU/preview',
+      'European-LEFT (EL)': 'https://drive.google.com/file/d/1E2_CuvcIzzzLjD8yR0-6X3NTT3sScz7Y/preview',
+      'The Party of European Socialists (PES)': 'https://drive.google.com/file/d/1SrXgO0YBo_SWW2t2gnNsTUzDfDQoXWNo/preview',
+      'European Pirate Party (PPEU)': 'https://drive.google.com/file/d/1zzriTVcKUMzteTUX2bJsRZHI8DNUMGX-/preview',
+      'Volt Europa (Volt)': 'https://drive.google.com/file/d/1aq0HHcDEoXcRKnuFSSQnfslOzYDQuy3o/preview',
     };
 
     const partyPath = partyPaths[party];
