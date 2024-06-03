@@ -4,7 +4,7 @@ export default function Home() {
     
     return (
       <main className="flex flex-col items-center justify-between">
-        <h1 className="text-center mb-3">Informed Consent of Study Participation</h1>
+        <h1 className="text-center mb-3">Einverständniserklärung der Teilnehmer</h1>
             <div className="px-5 flex justify-center">
                 <div className="task-box mb-3 max-w-prose place-items-center px-5 border border-neutral-900">
                     <p>
@@ -67,7 +67,7 @@ export default function Home() {
                             Ihre Angaben werden nur mit Ihrer Zustimmung in der Studie registriert. Wir planen, die Ergebnisse dieser und anderer Forschungsstudien in wissenschaftlichen Artikeln oder anderen Medien zu veröffentlichen. 
                             Ihre Daten werden so lange gespeichert, bis Sie sich an die Forscher wenden, um Ihre Daten vernichten oder löschen zu lassen. Der Zugriff auf die Rohdaten der Studie erfolgt verschlüsselt und passwortgeschützt während der Analyse und nur für die Autoren, Kollegen und Forscher, die an dieser Forschung mitarbeiten. Im Rahmen der Forschungsarbeit werden die Daten mithilfe von codierten Identifikationsnummern anonymisiert und dann der Öffentlichkeit zugänglich gemacht, wobei ohne die Informationen des Forschers keine Rückschlüsse auf einzelne Personen möglich sind. Sobald das Material öffentlich zugänglich ist, kann die Weitergabe der Daten nicht mehr rückgängig gemacht werden. 
                             Da keine Kontaktdaten (z. B. E-Mail-Adressen) erfasst werden, können die Forscher die Teilnehmer nicht über weitere Details der Studie oder über einen möglichen Verstoß gegen die Vertraulichkeit der Daten informieren.</p>
-                        <h2 className="text-center my-2">6. Identifizierung der Forscher</h2>
+                        <h2 className="text-center my-2">6. Identität der Forscher</h2>
                         <p className="font-normal mb-2">Wenn Sie Fragen oder Bedenken bezüglich der Studie haben, wenden Sie sich bitte an:</p>
                         <p className="font-normal">Forscher:</p>
                         <ul className="mb-2">

@@ -12,8 +12,8 @@ export default function Home() {
       </div>
       <div className="w-[75%] sm:w-[50%]">
         <InfoText></InfoText>
-        <QuestionElement2 question={"Für welche EU-Partei interessierst Sie sich?"}></QuestionElement2>
-        <QuestionElement question={"Warum interessierst Sie sich für diese Partei?"} topic={"eligibilityBefore"}  ></QuestionElement>
+        <QuestionElement2 question={"Für welche EU-Partei interessieren Sie sich?"}></QuestionElement2>
+        <QuestionElement question={"Warum interessieren Sie sich für diese Partei?"} topic={"eligibilityBefore"}  ></QuestionElement>
       </div>
       <PreTaskButton></PreTaskButton>
     </main>

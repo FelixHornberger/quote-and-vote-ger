@@ -17,8 +17,8 @@ export default function PreferedInformationGatheringWay() {
             <option disabled selected>
                 Wählen Sie eine Option aus
             </option>
-            <option id="placeholder">Darüber lesen</option>
-            <option id="placeholder">Darüber chatten</option>
+            <option id="placeholder">Darüber gelesen</option>
+            <option id="placeholder">Darüber gechattet</option>
             <option id="none">Ich möchte keine Angaben machen</option>
         </select>);
 }

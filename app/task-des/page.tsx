@@ -8,13 +8,13 @@ export default function Home() {
   const {href} = useHrefStore();
     
   let stringToDisplay = `Auf der folgenden Seite finden Sie das Parteiprogramm als PDF.
-  Das Laden des PDF kann bis zu 5 Sekunden dauern. Sie können sich beliebig viel Zeit nehmen, um das Parteiprogramm zu lesen. 
-  Wenn Sie alle Informationen über das Parteiprogramm erhalten haben, können Sie zur nächsten Seite wechseln.`
+  Das Laden der PDF kann bis zu 5 Sekunden dauern. Sie können sich beliebig viel Zeit nehmen, um das Parteiprogramm zu lesen. 
+  Wenn Sie alle Informationen über das Parteiprogramm erhalten haben, die für Sie wichtig sind, können Sie zur nächsten Seite wechseln.`
 
   if (href === '/chat') {
-    stringToDisplay = `Auf der nächsten Seite können Sie mit einem Chatbot über das Partyprogramm chatten. 
-    Sie können so lange chatten, wie Sie möchten. 
-    Wenn sie alle Informationen über das Partyprogramm haben, die für sie wichtig sind, können sie zur nächsten Seite gehen.`
+    stringToDisplay = `Auf der nächsten Seite können Sie mit einem Chatbot über das Parteiprogramm schreiben. 
+    Sie können so lange mit dem Chatbot interagieren, wie Sie möchten. 
+    Wenn sie alle Informationen über das Parteiprogramm haben, die für Sie wichtig sind, können Sie zur nächsten Seite gehen.`
   }
   
   return (

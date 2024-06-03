@@ -11,7 +11,7 @@ export default function Home() {
                 <PostTaskHeader></PostTaskHeader>
                 <div className="flex flex-col border-2 border-neutral-900 p-5 mb-3">
                     <div className="text-left">
-                        <Likertscale topic={'eligibilityAfter'} descriptionLeft="weniger wahrscheinlich" descriptionRight={"eher wahrscheinlich"} />
+                        <Likertscale topic={'eligibilityAfter'} descriptionLeft="eher unwahrscheinlich" descriptionRight={"eher wahrscheinlich"} />
                         <p className="pt-2.5 sm:pt-0">Wenn sich Ihre Meinung nicht geändert hat, klicken Sie auf den Knopf in der Mitte.</p>
                     </div>
                 </div>

@@ -14,10 +14,10 @@ export default function Home() {
   const labels3 = ["a) Der Europäische Rat","b) Die Europäische Kommission","c) Der Rat der Europäischen Union","d) Der Europäische Gerichtshof", "e) Ich weiß es nicht"];
 
   const question4 = "Was ist die Hauptfunktion des Europäischen Parlaments?";
-  const labels4 = ["a) Neue EU-Gesetze vorschlagen","b) Gesetzgebung verabschieden und ändern","c) Den EU-Haushalt direkt verwalten","d) Rechtliche Streitigkeiten zwischen Mitgliedstaaten entscheiden", "e) Ich weiß es nicht"];
+  const labels4 = ["a) Neue EU-Gesetze vorschlagen","b) Gesetze verabschieden und ändern","c) Den EU-Haushalt direkt verwalten","d) Bei rechtlichen Streitigkeiten zwischen Mitgliedstaaten vermitteln", "e) Ich weiß es nicht"];
 
   const question5 = "Wie nennt man den Prozess, wenn das Europäische Parlament über die Zustimmung oder Ablehnung der gesamten Europäischen Kommission abstimmt?";
-  const labels5 = ["a) Bestätigungshöring","b) Gesetzesprüfung","c) Misstrauensvotum","d) Investiturabstimmung", "e) Ich weiß es nicht"];
+  const labels5 = ["a) Bestätigungshörung","b) Gesetzesprüfung","c) Misstrauensvotum","d) Investiturabstimmung", "e) Ich weiß es nicht"];
 
   return (
     <main className="flex flex-col items-center">
