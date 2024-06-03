@@ -12,7 +12,7 @@ export default function Education() {
             <option disabled selected>
                 Wählen Sie eine Option aus
             </option>
-            <option id="placeholder">Geringer als Hauptschule</option>
+            <option id="placeholder">Kein Schulabschluss</option>
             <option id="placeholder">Hauptschule</option>
             <option id="placeholder">Realschule</option>
             <option id="placeholder">Abitur</option>
