@@ -42,7 +42,7 @@ export default function Home() {
                         <h2 className="text-center my-2">3. Verfahren der Studie</h2>
                         <p className="font-normal my-2">Nach der Bestätigung dieser informierten Zustimmung wird das Verfahren wie folgt durchgeführt:</p>
                         <ul className="mb-2">
-                            <li>1. Zu Beginn wird Ihnen eine kurze Einführung in die Studie gegeben. Danach füllen Sie die Einwilligungserklärung aus.</li>
+                            <li>1. Zu Beginn wird Ihnen eine kurze Einführung in die Studie gegeben.</li>
                             <li>2. Sie werden abgefragt, um Ihr Wissen über die EU-Wahlen und das Europäische Parlament zu testen.</li>
                             <li>3. Sie werden gebeten, eine Partei auszuwählen, über die Sie mehr erfahren möchten. </li>
                             <li>4. Sie werden einer Lernmethode zugewiesen. Dies erfolgt entweder über ein Chat-basiertes System [Claude 3 Haiku] oder das Parteiprogramm als PDF-Dokument. 
